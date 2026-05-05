@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The AI Slop Factory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <main class="container">
+        <header class="hero">
+            <h1 class="glitch" data-text="The AI Slop Factory">The AI Slop Factory</h1>
+            <p class="subtitle">Where 10 lines of original code meet 10,000 lines of GPT-4 hallucinations.</p>
+            <button id="slop-btn" class="primary-btn">Generate More Slop 🤖</button>
+        </header>
+
+        <section class="hall-of-shame">
+            <h2 class="section-title">Hall of Shame</h2>
+            <div class="grid">
+                
+                <!-- Card 1 -->
+                <div class="slop-card">
+                    <div class="card-header">
+                        <div class="avatar bg-gradient-1">C</div>
+                        <h3>Code-Copying Carl</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="roast">"I'm a full-stack developer!"</p>
+                        <p class="translation">Translation: He knows how to hit <code>Ctrl+C</code> on ChatGPT and <code>Ctrl+V</code> in VS Code. His Github Copilot has more commits than he does.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="badge">99% AI Generated</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="slop-card">
+                    <div class="card-header">
+                        <div class="avatar bg-gradient-2">B</div>
+                        <h3>Biraj "Prompt Engineer" Bhatta</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="roast">Can't write a <code>for</code> loop without asking Claude.</p>
+                        <p class="translation">His most used programming language is English. Has a repository called "ai-slop" because self-awareness is the first step.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="badge">Prompt "Expert"</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="slop-card">
+                    <div class="card-header">
+                        <div class="avatar bg-gradient-3">G</div>
+                        <h3>GPT-Gary</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="roast">Debugging strategy: "Let me ask the AI what went wrong."</p>
+                        <p class="translation">The AI hallucinates a non-existent library. Gary spends 3 hours trying to <code>npm install</code> it. The circle of life continues.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="badge">100% Hallucinated</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <div id="slop-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
