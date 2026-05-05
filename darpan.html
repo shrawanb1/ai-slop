@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slop Report: Darpan Adhikari</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body onload="document.querySelector('.slop-meter-fill').style.width = '98%'">
+    <div class="background-effects">
+        <div class="blob blob-1" style="background: #ef4444;"></div>
+        <div class="blob blob-2" style="background: #f59e0b;"></div>
+    </div>
+
+    <main class="container">
+        <a href="index.html" class="back-link">← Back to Factory</a>
+        
+        <header class="hero">
+            <h1 class="glitch" data-text="Darpan Adhikari">Darpan Adhikari</h1>
+            <p class="subtitle">"Why write code when you can write prompts?"</p>
+        </header>
+
+        <section class="slop-analysis">
+            <h2 class="section-title">Critical Slop Analysis</h2>
+            
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <span class="stat-value">98.4%</span>
+                    <span class="stat-label">AI Reliance</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">0</span>
+                    <span class="stat-label">Original Commits</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">∞</span>
+                    <span class="stat-label">Hallucinations</span>
+                </div>
+            </div>
+
+            <div class="slop-card highlight">
+                <h3>Overall Slop Level</h3>
+                <div class="slop-meter-container">
+                    <div class="slop-meter-fill"></div>
+                </div>
+                <p class="roast">Status: CODEBASE IN JEOPARDY</p>
+                <p class="translation">Darpan's keyboard is technically redundant. He could just use a microphone to dictate "Make it work" to ChatGPT and achieve the same results. The only thing he compiles is a list of reasons why the AI's bug isn't his fault.</p>
+            </div>
+
+            <ul class="roast-list">
+                <li class="roast-item" style="animation-delay: 0.1s;">
+                    <strong>The "I'm a CS Student" Lie:</strong> 
+                    Spends 4 years in CS only to use <code>String.split()</code> as a personality trait. Can explain Big O notation only if the 'O' stands for 'OpenAI'.
+                </li>
+                <li class="roast-item" style="animation-delay: 0.3s;">
+                    <strong>The Hallucination Specialist:</strong> 
+                    Once tried to use a library called <code>darpan-magic-fix.js</code> because ChatGPT hallucinated it was a real npm package. He still hasn't deleted the empty <code>node_modules</code> folder.
+                </li>
+                <li class="roast-item" style="animation-delay: 0.5s;">
+                    <strong>Prompt Engineering Master:</strong> 
+                    His senior project was just a README.md file that said "See ChatGPT for implementation details."
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
